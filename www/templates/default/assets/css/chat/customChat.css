@@ -1,0 +1,132 @@
+.br-logo {
+    display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 15px;
+  align-items: center;
+  z-index: 1030;
+  transition: all 0.2s ease-in-out; }
+  @media screen and (prefers-reduced-motion: reduce) {
+    .br-logo {
+      transition: none; } }
+  @media (min-width: 992px) {
+    .br-logo {
+      left: 0; } }
+  .br-logo > a {
+  	text-decoration: none;
+    color: #b8b6b4;
+    letter-spacing: -0.5px; }
+    .br-logo > a i {
+      font-style: normal;
+      font-weight: 500;
+      color: #3bb7e9; }
+    .br-logo > a span {
+      font-weight: 300;
+      color: #b8b6b4;
+      display: inline-block;
+      transition: all 0.2s ease-in-out; }
+      @media screen and (prefers-reduced-motion: reduce) {
+        .br-logo > a span {
+          transition: none; } }
+      .br-logo > a span:first-child {
+        padding-right: 2px; }
+      .br-logo > a span:last-child {
+        padding-left: 2px; }
+    .br-logo > a:hover, .br-logo > a:focus {
+      text-decoration: none; }
+      .br-logo > a:hover span:first-child, .br-logo > a:focus span:first-child {
+        color: #3bb7e9;
+        transform: translateX(-5px); }
+      .br-logo > a:hover span:last-child, .br-logo > a:focus span:last-child {
+        color: #3bb7e9;
+        transform: translateX(5px); }
+
+@media (min-width: 992px) {
+  .collapsed-menu .br-logo {
+    left: -230px; }
+}
+
+.visible-phone {
+    display: none !important;
+}
+
+@media (max-width: 767px){
+    .visible-phone {
+        display: flex !important;
+    }
+    .hidden-phone {
+        display: none !important;
+    }
+    .friendsListContainer {
+        width: 100%!important;
+    }
+    .chatTab .friend {
+    	padding: 5px;
+    }
+    .miniprofile_miniProfileContent_25Sge {
+    	width: 280px;
+    }
+}
+
+.friend-list-hide {
+	width: 0px!important;
+    transition: width 0.32s ease-in-out 0s, opacity 0.32s ease-in-out 0s;
+}
+
+.contextMenuItem {
+	cursor: pointer!important;
+}
+
+.contextMenuItem a {
+	text-decoration: none;
+	color: #9ca4a7;
+}
+
+.friendSearchClear {
+	z-index: 9999;
+}
+
+.searchMore {
+	background: none;
+    border: none;
+    text-decoration: underline;
+    color: #969696;
+    font-weight: 600;
+    cursor: pointer;
+    outline:none;
+}
+
+.searchMore:hover{
+	color: #fff;
+}
+
+.miniprofile_miniProfile_s5zcg {
+	margin: 0;
+	margin-left: 11px;
+}
+
+.online-hover-card {
+	border-right: 2px solid #6dcff6!important;
+}
+
+.friendHover {
+	z-index: 201;
+}
+
+.web_chat_frame .contextMenu {
+    max-height: 100%;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+.chatImageContainer.Minimized, .chatVideoContainer.Minimized {
+  max-width: 230px;
+}
+
+.BBCodeCollapseControl {
+  left: 2px;
+}
+
+.chatHistoryScroll {
+  overflow: scroll;
+}

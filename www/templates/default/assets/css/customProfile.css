@@ -1,0 +1,27 @@
+@media (max-width: 767px){
+    .visible-phone {
+        display: flex !important;
+    }
+    .hidden-phone {
+        display: none !important;
+    }
+    html.responsive .profile_count_link, html.responsive .profile_count_link_preview_ctn {
+        height: 55px;
+    }
+    html.responsive .profile_friend_links {
+        height: 100%;
+        overflow: hidden;
+    }
+    html.responsive .profile_friend_links .profile_count_link {
+        height: 29px;
+        overflow: hidden;
+    }
+    html.responsive .profile_leftcol, html.responsive .profile_rightcol {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .profile_comment_area {
+        margin-top: 0px;
+    }
+}
