@@ -15,7 +15,7 @@ include_once '../config/crypt.php';
 
    function generateImage($width='120',$height='40',$characters='4') {
 	  global $cookie;
-      $font = 'D:/GitHub/gg.com/controllers/capchaUser/glashou.ttf';
+      $font = 'D:/GitHub/GoodGames/controllers/capchaUser/glashou.ttf';
       $code = generateCode($characters);
       $mdcode = mc_encrypt($code, ENCRYPTION_KEY);
       $name = 'capchauser';

@@ -11,7 +11,7 @@ $dbpasswd = "";*/
 //172.16.9.5
 //192.168.0.101
 //localhost
-define("HOST", "192.168.1.102");
+define("HOST", "192.168.1.210");
 define("USER", "root");
 define("PASSWORD", "");
 define("DB", "good_games");
